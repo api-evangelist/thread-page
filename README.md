@@ -64,5 +64,153 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ThreadPage is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://thread.page
+ThreadPage is a web‑based notes application that organizes each project or client into its own threaded sequence of notes. Users can add text, checklists, tables, images, and files, and share threads with collaborators. Pro plans integrate AI assistants such as Claude Code, ChatGPT or Codex, which can read and augment notes via API keys. The service runs in browsers and offers iOS and Android apps, with free unlimited usage for basic notes and paid tiers for storage and AI features.
+
+**Areas:** notes · collaboration · productivity · AI · web-app
+
+## ThreadPage on APIs.io
+
+Everything profiled for ThreadPage is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/thread-page/](https://apis.io/providers/thread-page/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [ThreadPage Endpoint URLs API](https://apis.io/apis/thread-page/thread-page-endpoint-urls-api/) — The Endpoint URLs API from ThreadPage — 1 operation(s) for endpoint urls.
+- [ThreadPage Events API](https://apis.io/apis/thread-page/thread-page-events-api/) — The Events API from ThreadPage — 8 operation(s) for events.
+- [ThreadPage Integration API](https://apis.io/apis/thread-page/thread-page-integration-api-api/) — The Integration API API from ThreadPage — 37 operation(s) for integration api.
+- [ThreadPage Requests API](https://apis.io/apis/thread-page/thread-page-requests-api/) — The Requests API from ThreadPage — 5 operation(s) for requests.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Thread Page Webhooks](https://apis.io/asyncapis/thread-page/thread-page-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Thread Page Agentic Access](https://apis.io/agentic-access/thread-page/thread-page-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ConnectionInfo](https://apis.io/schemas/thread-page/thread-page-connection-info/)
+- [Delivery](https://apis.io/schemas/thread-page/thread-page-delivery/)
+- [ExecutorRequest](https://apis.io/schemas/thread-page/thread-page-executor-request/)
+- [Note](https://apis.io/schemas/thread-page/thread-page-note/)
+- [Subscription](https://apis.io/schemas/thread-page/thread-page-subscription/)
+- [Thread](https://apis.io/schemas/thread-page/thread-page-thread/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Thread Page Context](https://apis.io/jsonld/thread-page/thread-page-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ThreadPage API Rules](https://apis.io/rules/thread-page/thread-page-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Thread Page Authentication](https://apis.io/security/thread-page/thread-page-authentication/)
+- [Thread Page Domain Security](https://apis.io/security/thread-page/thread-page-domain-security/)
+- [Thread Page Vulnerability Disclosure](https://apis.io/security/thread-page/thread-page-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Thread Page Scopes](https://apis.io/scopes/thread-page/thread-page-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Thread Page Plans Pricing](https://apis.io/plans/thread-page/thread-page-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Thread Page Rate Limits](https://apis.io/rate-limits/thread-page/thread-page-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://thread.page)
+- [Documentation](https://thread.page/help/connections/custom)
+- [API reference](https://thread.page/help/connections/changelog)
+- [Pricing](https://thread.page/pricing)
+- [Sign up](https://thread.page/app)
+- [Support](https://thread.page/contact)
+- [Security](https://thread.page/help/connections/security)
+- [Terms of service](https://thread.page/terms)
+- [Privacy policy](https://thread.page/privacy)
+- [GitHub](https://github.com/ThreadPage)
+
+## API Evangelist rating
+
+**Kin Score 70.0** — exemplar · rubric 0.26.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 68.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 67.9 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 61.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/thread-page/](https://apis.io/providers/thread-page/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ThreadPage: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/thread-page/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
